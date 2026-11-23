@@ -66,9 +66,58 @@
         {{ $slot }}
 
         {{-- Footer --}}
-        <footer class="w-full">
-            <div class="container mx-auto px-4 lg:px-0">
+        <footer class="w-full border-t border-t-gray-200">
+            <div class="container mx-auto px-4 py-5 lg:px-0 lg:py-20">
+                <div class="w-full flex flex-col gap-4 lg:justify-between lg:flex-row lg:flex-wrap">
+                    <div class="flex flex-col sm:w-70 lg:w-1/4">
+                        <img width="150" src="{{ asset('asset/images/clientra-logo.png') }}" alt="Logo-footer">
+                        <p class="text-gray-500 text-sm lg:text-base">Clientra helps small teams plan, ship and measure
+                            their work in one place.</p>
+                    </div>
+                    <div class="flex flex-col gap-4 sm:flex-row sm:justify-between sm:flex-wrap lg:w-1/2">
+                        <div class="flex flex-col gap-2">
+                            <span class="text-lg font-semibold">Product</span>
+                            <div class="flex flex-col gap-2">
+                                <a href="" class="text-base font-light text-gray-500">Features</a>
+                                <a href="" class="text-base font-light text-gray-500">Integrations</a>
+                                <a href="" class="text-base font-light text-gray-500">Pricing</a>
+                                <a href="" class="text-base font-light text-gray-500">Security</a>
+                                <a href="" class="text-base font-light text-gray-500">Changelog</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="text-lg font-semibold">Product</span>
+                            <div class="flex flex-col gap-2">
+                                <a href="" class="text-base font-light text-gray-500">Features</a>
+                                <a href="" class="text-base font-light text-gray-500">Integrations</a>
+                                <a href="" class="text-base font-light text-gray-500">Pricing</a>
+                                <a href="" class="text-base font-light text-gray-500">Security</a>
+                                <a href="" class="text-base font-light text-gray-500">Changelog</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="text-lg font-semibold">Product</span>
+                            <div class="flex flex-col gap-2">
+                                <a href="" class="text-base font-light text-gray-500">Features</a>
+                                <a href="" class="text-base font-light text-gray-500">Integrations</a>
+                                <a href="" class="text-base font-light text-gray-500">Pricing</a>
+                                <a href="" class="text-base font-light text-gray-500">Security</a>
+                                <a href="" class="text-base font-light text-gray-500">Changelog</a>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <span class="text-lg font-semibold">Product</span>
+                            <div class="flex flex-col gap-2">
+                                <a href="" class="text-base font-light text-gray-500">Features</a>
+                                <a href="" class="text-base font-light text-gray-500">Integrations</a>
+                                <a href="" class="text-base font-light text-gray-500">Pricing</a>
+                                <a href="" class="text-base font-light text-gray-500">Security</a>
+                                <a href="" class="text-base font-light text-gray-500">Changelog</a>
+                            </div>
+                        </div>
+                    </div>
 
+                </div>
             </div>
         </footer>
     </main>
